@@ -1,0 +1,5 @@
+insert into preguntas(id_pregunta, enunciado, codigo, respuesta, tipo) values (1, "¿Qué imprime el siguiente código?", "x = 5\ny = 3\nprint(x + y)", "8", "facil");
+insert into preguntas(id_pregunta, enunciado, codigo, respuesta, tipo) values (2, "¿Qué valor se imprimirá?", "a = 10\nb = 2\na = a // b\nprint(a)", "5", "facil");
+insert into preguntas(id_pregunta, enunciado, codigo, respuesta, tipo) values (3, "¿Cuál es el resultado de la siguiente operación?", "x = 7\ny = 2\nz = x % y\nprint(z)", "1", "facil");
+insert into preguntas(id_pregunta, enunciado, codigo, respuesta, tipo) values (4, "¿Qué se mostrará por pantalla?", "n = 20\nm = 4\nprint(n / m)", "5.0", "facil");
+insert into preguntas(id_pregunta, enunciado, codigo, respuesta, tipo) values (5, "¿Cuál será la salida del siguiente código?", "total = 0\nfor i in range(1, 6):\n  if i % 2 != 0:\n     total += i\nprint(total)", "9", "facil");
